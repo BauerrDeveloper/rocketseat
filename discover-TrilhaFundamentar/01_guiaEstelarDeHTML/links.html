@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <p><a href="index.html" target="_blank">Home</a></p>
+    
+
+    <h2>Conhecendo a tag ancora</h2>
+        <p>São os famosos hyperlinks. &lt;a&gt;</p>
+        <p>
+            Atributos: 
+            <ul>
+                <li>globais</li>
+                
+                <li>
+                    href
+                    <ul>
+                        <li>para onde iremos quando clicamos no link?</li>
+                            <ul>
+                                <li>url completa</li>
+                                <li>fragmento</li>
+                                <li>e-mail</li>
+                                <li>telefone</li>
+                                <li>e outros</li>
+                            </ul>
+                    </ul>
+                </li>               
+                <li>download</li>
+                <li>
+                    target
+                        <ul>
+                            <li>_self (padrão): abre o link na janela ativa.</li>
+                            <li>_blank: faz com que eu não saia da minha página atual, abrindo a nova página numa nova guia</li>
+                        </ul>
+                </li>
+            </ul>
+        </p>
+
+    <h2>Utilizando a tag ancora</h2>
+        <p>
+            <ul>
+                <li><a href="https://rocketseat.com.br" target="_blank">Vai abrir a página da rocketseat em uma nova aba no navegador.</a> Exemplo de url completa</li>
+                <li><a href="mailto:ro.bauerr@gmail.com">Vai enviar um email utilizando o programa padrão do computador.</a> Exemplo de email.</li>
+                <li><a href="tel:+5548999002408">Vai enviar uma notificação para o celular que estiver cadastrado, onde será solicitado que faça a ligação.</a> Exemplo de telefone.</li>
+                <li><a href="#about">Sobre mim</a> Exemplo de fragmento. Direciona para o local da página que se encontra essa hashtag. Utilizada em conjunto com a tag id.</li>
+                <li><a href="#historia">História</a> Exemplo de fragmento. Direciona para o local da página que se encontra essa hashtag. Utilizada em conjunto com a tag id.</li>
+                <li><a href="#trabalhos">Trabalhos</a> Exemplo de fragmento. Direciona para o local da página que se encontra essa hashtag. Utilizada em conjunto com a tag id.</li>
+            </ul>
+
+            <h3>Testando os fragmentos</h3>
+
+            <h4 id="about">Sobre mim</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatum incidunt accusantium, soluta quidem iure sed delectus voluptates facere, accusamus culpa cupiditate perspiciatis deleniti neque quaerat laboriosam similique itaque nulla!</p>
+
+            <h4 id="historia">História</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laboriosam laborum magnam ab ad itaque voluptas, fugit facere veritatis exercitationem, explicabo nihil et nulla maxime vitae! Minima dolorum aut vel?</p>
+
+            <h4 id="trabalhos">Trabalhos</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nulla sint velit hic debitis aut eos laudantium architecto illo dolores odit eveniet, excepturi possimus eum impedit adipisci alias! Doloremque, nemo.</p>
+        </p>
+
+    <h2>Conteúdos dentro da tag ancora</h2>
+        <p>Posso colocar qualquer coisa! Saca só! <br>
+        Em title, colocamos o conteúdo que irá aparecer quando repousamos o mouse. Atenção que em telas touch não funciona! <br>
+        Tudo que estiver dentro da tag ancora, se tornará o link. <br>
+        Exemplo:</p>
+
+        <a href="https://googl.com.br" title="Ir para o Google!">
+            <h1>Google</h1>
+            <p>Posso colocar mais parágrafos e outras coisas aqui!</p>
+            <img style="width: 150px; height: 100px;" src="https://source.unsplash.com/random" alt="Aqui deveria aparcer uma imagem!">
+        </a>
+
+    <h2>Caminhos e URLs</h2>
+        <p>Algo importante que precisamos saber ao cria links é como navegar entre eles, jutamente em como navegar nos caminhos dos arquivos!</p>
+        <a href="https://google.com.br" target="_blank" title="Vai para o google.">Exemplo de link externo</a>
+        <a href="index.html" target="_blank">Vai para a home do site.</a>
+
+    <h2>Como navegar nos diretórios</h2>
+        <p>../ volta para o diretório anterior.</p>
+        <p>./ diretório raiz</p>
+    
+    <h2>Caminhos relativos vs absolutos</h2>
+        <p>
+            No caminho absoluto inclui-se o protocolo e o nome de domínio e sempre apontará para o mesmo local, já que é absoluto. Como por exemplo esta URL http://www.rocketseat.com.br/projeto/index.html é absoluto(mesmo não levando a lugar nenhum, é apenas um exemplo). <br>
+            No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tiver irá consequentemente dar erro, apontará para lugares diferentes. Como por exemplo apenas google.com.
+        </p>
+
+    
+
+</body>
+</html>

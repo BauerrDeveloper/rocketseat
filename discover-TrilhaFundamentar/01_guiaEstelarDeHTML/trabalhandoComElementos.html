@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com elementos</title>
+</head>
+
+<body>
+
+    <h1>Trabalhando com elementos</h1>
+
+    <p><a href="index.html">Home</a></p>
+
+    <h2>Semântica - Títulos e parágrafos</h2>
+        <h3>Sobre mim</h3>
+        <p>
+            Mussum Ipsum, cacilds vidis litro abertis.
+            <em>Quem num gosta di mim que vai caçá sua turmis!</em> Mauris nec dolor in eros commodo tempor.
+            Aenean aliquam molestie leo, vitae iaculis nisl.Mé faiz elementum girarzis, nisi eros vermeio.
+            Detraxit consequat et quo num tendi nada.
+        </p>
+
+        <h3>Trabalho</h3>
+        <p>
+            Mussum Ipsum, cacilds vidis litro abertis.
+            Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            <strong>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</strong>
+            Leite de capivaris, leite de mula manquis sem cabeça.Atirei o pau no gatis,
+            per gatis num morreus.
+            <a href="https://mussumipsum.com/">Saiba mais clicando aqui!</a>
+        </p>
+
+        <h3>O nascimento</h2>
+            <P>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, nemo. Alias architecto sed, nisi impedit aliquid non exercitationem assumenda
+                perspiciatis beatae modi! Eum culpa cumque voluptates.
+                Maxime corporis alias iusto?
+                Escrito usando o emmet Lorem automatico do VSCode.
+            </P>
+            <h4>Infância</h4>
+            <p>
+                Texto sobre a infância
+            </p>
+
+            <h4>Adolescência</h4>
+            <p>Texto sobre a Adolescência</p>
+
+    <h2>Listas</h2>
+        <p>Resumo sobre listas.</p>
+        <p>Existem listas ordenadas &lt;ol&gt; e listas não ordenadas &lt;ul&gt; <br> Podemos usar o emmet da seguinte forma: ul*5 e ele cria 5 itens de uma lista.</p>
+
+        <h3>Suco detox</h3>
+        <h4>Ingredientes:</h4>
+
+        <ul>
+            <li>3 folhas de couve;</li>
+            <li>1 laranjas;</li>
+            <li>1 pedacinho gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto.</li>
+        </ul>
+
+        <ol>
+            <li>3 folhas de couve;</li>
+            <li>1 laranjas;</li>
+            <li>1 pedacinho gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto.</li>
+        </ol>
+    
+    <h2>Citações</h2>
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            O <strong>Elemento HTML <code>&lt;blockquote&gt;</code> </strong> (ou <em>HTML Block
+            Quotation Element</em>) indica que um texto externo foi citado.
+        </blockquote>
+        
+        <p>De acordo com <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            <cite>página MDN blockquote</cite></a>:
+        </p>
+        
+        <p>
+            O elemento quote — <code>&lt;q&gt;</code> — é <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">usado para citações curtas 
+            que não precisam de parágrafos ou quebras de linha.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q"><cite>MDN q page</cite></a>.
+        </p>
+    
+    <h2>Abreviações</h2>
+        <p>Usamos <abbr title="Hypertext Markup Language">HTML</abbr> para estruturar os nossos documentos da web.</p>
+
+    <h2>Detalhes de Contato</h2>
+    Detalhes da pessoa que escreveu o documento.
+        <address>
+            <p>
+                Rodrigo Paulo <br>
+                <strong>Palhoça/SC</strong>
+            </p>
+        </address>
+
+    <h2>Listas de descrição</h2>
+        Objetivo é marcar um conjunto de itens e suas descrições.
+    
+        <p>
+            &lt;dl&gt; Tag para lista de descrição <br>
+            &lt;dt&gt; Tag para o termo da descrição <br>
+            &lt;dd&gt; Tag para descrição
+        </p>
+    
+        <dl>
+            <dt>HyperText</dt>
+            <dd>Essa é a descrição</dd>
+        </d>
+    
+        <dl>
+            <dt>Outra coisa</dt>
+            <dd>Essa é a descrição</dd>
+        </d>
+    
+        <dl>
+            <dt>Outro iten</dt>
+            <dd>Essa é a descrição</dd>
+        </d>
+
+    <h2>Representação de Código</h2>
+        <p>Usado para representar códigos na nossa página</p>
+        <p>
+            &lt;pre&gt; tag para criar um bloco de código, mantém os espaçes em branco. <br>
+            &lt;code&gt; muda a cor do conteúdo para representar um código.
+        </p>
+        <p>
+            <pre>
+                System.out.printls("Isso é um exemplo de código");
+            </pre>
+        </p>
+        <p>
+            <pre>
+                <code>
+                    System.out.printls("Isso é um exemplo de código");
+                </code>
+            </pre>
+        </p>
+        
+    <h2>Elementos genéricos</h2>
+        <p>
+            &lt;div&gt; tag usada para agrupar um conteúdo<br>
+            &lt;span&gt; tag usada para agrupar texto, em uma ideia mais de linha.
+
+            <div class="cart">
+                <span>Camiseta</span>
+                <span>R$ 99,99</span>
+            </div>
+        </p>
+
+</body>
+
+</html>
