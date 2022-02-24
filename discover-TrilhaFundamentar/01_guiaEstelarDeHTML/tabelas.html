@@ -34,11 +34,76 @@
             <p>
                 Usamos os seguintes elementos para criar uma tabela:
                 <ul>
-                    <li>
-                       Teste teste
-                    </li>
+                    <li>A tag Table para criar a tabela</li>
+                    <li>A tag tr (table row) para criar uma linha na tabela</li>
+                    <li>A tag th para o cabeçalho.</li>
                 </ul>
             </p>
+
+            <p>Um esquema básico de tabela é feito assim: <br>
+                Tudo é circundado por uma tag table, que é a tag que cria a tabela. <br>
+                Em seguida criamos as linhas, usando a tag tr. <br>
+                Para o cabeçalho da tabela, entre as tags tr, usamos a tag th <br>
+                Quando queremos adicionar uma linha, outra ag tr e dentro dessa linha, usamos a tag td, respeitando a hierarquia acima. <br>
+            </p>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Telefone</th>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>41 anos</td>
+                    <td>48 99900-2408</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo</td>
+                    <td>36 anos</td>
+                    <td>48 99935-5870</td>
+                </tr>
+            </table>
+
+            <h2>Organizando tabelas</h2>
+
+            <p>Colocaremos o nosso cabeçalho dentro da tag thead. <br>
+                O nosso corpo, dentro da tag tbody. <br>
+                E o rodapé, dentro da tag tfoot. <br>
+                Por fim, usamos a tad caption para descrever sobre o que trata a nossa tabela. <br>
+                Todos esses elementos facilitam a leitura da tela para pessoas que precisam de alguma acessibilidade!
+            </p>
+
+            <table>
+                <caption>Pessoas por idade</caption>
+
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Maria Ana</td>
+                        <td>41 anos</td>
+                        <td>48 99900-2408</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rodrigo</td>
+                        <td>36 anos</td>
+                        <td>48 99935-5870</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <td>Total:</td>
+                    <td>2 pessoas</td>
+                </tfoot>
+            </table>
 
     </body>
 </html>
